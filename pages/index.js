@@ -4,6 +4,7 @@ import Intro from "../components/intro";
 import Bio from "../components/bio";
 import Applications from "../components/applications";
 import ContactMe from "../components/contact-me";
+import Skills from "../components/skills";
 // import '../styles/index.css';
 import { useState } from "react";
 
@@ -36,6 +37,9 @@ export default function Home() {
         <div>
           <Applications />
         </div>
+        <div>
+          <Skills />
+          </div>
         <div className="bg-blue-900">
           <ContactMe />
         </div>

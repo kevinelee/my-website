@@ -9,7 +9,7 @@ export default function Applications() {
         </div>
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center">
-            <h2 className="text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+            <h2 className="text-5xl text-center leading-6 font-semibold uppercase text-gray-600 tracking-wider ">
               Applications
             </h2>
             <p className="mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-500 sm:mt-4">

@@ -3,11 +3,19 @@ import React from "react";
 export default function ContactMe() {
   return (
     <>
-      <div className="flex p-24 text-white text-center flex-col md:flex-row md:justify-center">
+      <div className="flex p-24 text-white text-center flex-col md:flex-row md:justify-around">
         {/* <i className="fas fa-map-marker-alt"></i>  */}
-        <div className="p-4 flex flex-col"><span className="text-lg">Location:</span>Orange County</div>
-        <div className="p-4 flex flex-col"><span className="text-lg">Mobile#:</span>(562) 405-5872 </div>
-        <div className="p-4 flex flex-col"><span className="text-lg">Email:</span>kevin.ej.lee@gmail.com</div>
+        <div className="p-4 flex flex-col text-2xl text-gray-400">
+          Location:
+          <span className="text-3xl text-white">Orange County, CA</span>
+        </div>
+        <div className="p-4 flex flex-col text-2xl text-gray-400">
+          Mobile#:<span className="text-3xl text-white">562-405-5872</span>{" "}
+        </div>
+        <div className="p-4 flex flex-col text-2xl text-gray-400">
+          Email:
+          <span className="text-3xl text-white">kevin.ej.lee@gmail.com</span>
+        </div>
       </div>
     </>
   );

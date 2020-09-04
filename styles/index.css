@@ -4,8 +4,12 @@
 
 .hover {
   transition: all 500ms ease-in-out;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
 }
 
 .hover:hover {
   transform: scale(1.2);
+  filter: none;
+  --webkit-filter: grayscale(0%)
 }

@@ -27,30 +27,36 @@ export default function Bio() {
             accusamus suscipit ea! Eaque amet quasi est et tempora nesciunt odit
             odio similique.
           </p>
-          <div className="bg-white">
-            <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-              <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+
+          <div className="flex justify-center max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-3">
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <a href="https://www.linkedin.com/in/kevinelee/">
                   <img
                     className="h-12"
-                    src="https://tailwindui.com/img/logos/tuple-logo.svg"
-                    alt="Tuple"
+                    src="https://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png"
+                    alt="linkedin"
                   />
-                </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                </a>
+              </div>
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <a href="https://github.com/kevinelee">
+
                   <img
                     className="h-12"
-                    src="https://tailwindui.com/img/logos/mirage-logo.svg"
-                    alt="Mirage"
+                    src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                    alt="github"
                   />
-                </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                </a>
+              </div>
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <a href="">
                   <img
                     className="h-12"
-                    src="https://tailwindui.com/img/logos/statickit-logo.svg"
-                    alt="StaticKit"
+                    src="https://www.freepngimg.com/thumb/resume/9-2-resume-picture.png"
+                    alt="resume"
                   />
-                </div>
+                </a>
               </div>
             </div>
           </div>

@@ -9,8 +9,8 @@ export default function Applications() {
         </div>
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center">
-            <h2 className="text-5xl text-center leading-6 font-semibold uppercase text-gray-600 tracking-wider ">
-              Applications
+            <h2 className="text-3xl md:text-5xl text-center leading-6 font-semibold uppercase text-gray-600 tracking-wider ">
+              &mdash; Applications &mdash;
             </h2>
             <p className="mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-500 sm:mt-4">
               Check out some of the applications I've worked on and created!
@@ -95,7 +95,8 @@ export default function Applications() {
                       ART4BID
                     </h3>
                     <p className="mt-3 text-base leading-6 text-gray-500">
-                      An application to view and upload posts allowing the bidding on items.
+                      An application to view and upload posts allowing the
+                      bidding on items.
                     </p>
                   </a>
                 </div>

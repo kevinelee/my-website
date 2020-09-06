@@ -39,7 +39,7 @@ export default function Home() {
         </div>
         <div>
           <Skills />
-          </div>
+        </div>
         <div className="bg-gray-500">
           <ContactMe />
         </div>

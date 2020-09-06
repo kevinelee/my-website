@@ -84,11 +84,11 @@ export default function Skills() {
               </a>
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
-              <a href="https://getbootstrap.com/">
+              <a href="https://jquery.com/">
                 <img
                   className="max-h-24 hover"
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png"
-                  alt="Bootstrap"
+                  src="https://cdn.iconscout.com/icon/free/png-256/jquery-10-1175155.png"
+                  alt="Jquery"
                 />
               </a>
             </div>

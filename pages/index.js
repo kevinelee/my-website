@@ -40,7 +40,7 @@ export default function Home() {
         <div>
           <Skills />
           </div>
-        <div className="bg-blue-900">
+        <div className="bg-gray-500">
           <ContactMe />
         </div>
       </div>

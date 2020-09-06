@@ -5,7 +5,7 @@ import Bio from "../components/bio";
 import Applications from "../components/applications";
 import ContactMe from "../components/contact-me";
 import Skills from "../components/skills";
-// import '../styles/index.css';
+import { Link, animateScroll as scroll } from "react-scroll";
 import { useState } from "react";
 
 export default function Home() {
@@ -25,22 +25,22 @@ export default function Home() {
       </Head>
 
       <div>
-        <div className="bg-gray-100">
+        <div id="section0" className="bg-gray-100">
           <Header />
         </div>
-        <div className="p-16">
+        <div id="section1" className="p-16">
           <Intro />
         </div>
-        <div className="bg-gray-100 p-16">
+        <div id="section2" className="bg-gray-100 p-16">
           <Bio />
         </div>
-        <div>
+        <div id="section3">
           <Applications />
         </div>
-        <div>
+        <div id="section4">
           <Skills />
         </div>
-        <div className="bg-gray-500">
+        <div id="section5" className="bg-gray-500">
           <ContactMe />
         </div>
       </div>

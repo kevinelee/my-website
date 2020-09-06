@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Header() {
   return (
@@ -19,36 +20,80 @@ export default function Header() {
                   href="#"
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Home
+                  <Link
+                    activeClass="active"
+                    to="section0"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Home
+                  </Link>
                 </a>
                 <a
                   href="#"
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  About Me
+                  <Link
+                    activeClass="active"
+                    to="section2"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    About Me
+                  </Link>
                 </a>
                 <a
                   href="#"
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Applications
+                  <Link
+                    activeClass="active"
+                    to="section3"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Applications
+                  </Link>
                 </a>
                 <a
                   href="#"
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Contact Me
+                  <Link
+                    activeClass="active"
+                    to="section4"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Skills
+                  </Link>
+                </a>
+                <a
+                  href="#"
+                  className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+                >
+                  <Link
+                    activeClass="active"
+                    to="section5"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Contact Me
+                  </Link>
                 </a>
               </div>
               <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
-                <span className="inline-flex rounded-md shadow">
-                  {/* <a
-                  href="#"
-                  className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-gray-50 active:text-indigo-700 transition duration-150 ease-in-out"
-                >
-                  Log in
-                </a> */}
-                </span>
+                <span className="inline-flex rounded-md shadow"></span>
               </div>
             </nav>
           </div>

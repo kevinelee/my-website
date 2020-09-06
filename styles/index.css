@@ -1,5 +1,8 @@
+/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
+/* purgecss end ignore */
+
 @tailwind utilities;
 
 .hover {
@@ -11,5 +14,5 @@
 .hover:hover {
   transform: scale(1.2);
   filter: none;
-  --webkit-filter: grayscale(0%)
+  --webkit-filter: grayscale(0%);
 }

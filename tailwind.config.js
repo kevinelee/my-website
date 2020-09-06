@@ -1,7 +1,7 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  purge: [],
+  // purge: [],
   theme: {
     extend: {
       fontFamily: {
@@ -9,6 +9,6 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  // variants: {},
   plugins: [require("@tailwindcss/ui")],
 };

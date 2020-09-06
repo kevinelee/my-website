@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .hover {
-  transition: all 500ms ease-in-out;
+  transition: all 250ms ease-in-out;
   filter: gray;
   -webkit-filter: grayscale(100%);
 }

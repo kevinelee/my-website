@@ -19,7 +19,8 @@
     "next-on-netlify": "^2.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scroll": "^1.8.1"
+    "react-scroll": "^1.8.1",
+    "react-typewriter-hook": "^1.0.1"
   },
   "description": "This is a starter template for [Learn Next.js](https://nextjs.org/learn).",
   "main": "index.js",

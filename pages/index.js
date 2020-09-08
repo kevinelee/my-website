@@ -5,6 +5,7 @@ import Bio from "../components/bio";
 import Applications from "../components/applications";
 import ContactMe from "../components/contact-me";
 import Skills from "../components/skills";
+import Section from "../components/section"
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useState } from "react";
 
@@ -20,29 +21,34 @@ export default function Home() {
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></link>
       </Head>
 
       <div>
-        <div id="section0" className="bg-gray-100">
+        <Section number="0" className="bg-gray-100">
           <Header />
-        </div>
-        <div id="section1" className="p-16">
+        </Section>
+
+        <Section number="1" className="p-4">
           <Intro />
-        </div>
-        <div id="section2" className="bg-gray-100 p-16">
+        </Section>
+
+        <Section number="2" className="bg-gray-100 p-16">
           <Bio />
-        </div>
-        <div id="section3">
+        </Section>
+
+        <Section number="3">
           <Applications />
-        </div>
-        <div id="section4">
+        </Section>
+
+        <Section number="4">
           <Skills />
-        </div>
-        <div id="section5" className="bg-gray-500">
+        </Section>
+
+        <Section number="5" className="bg-gray-500">
           <ContactMe />
-        </div>
+        </Section>
       </div>
     </>
   );

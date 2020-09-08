@@ -17,7 +17,7 @@ export default function Bio() {
             src="https://avatars2.githubusercontent.com/u/56710563?s=460&u=181725246b9e4928501cab97039dcf70e5f82f2b&v=4"
             alt="kevin"
           />
-          <p className="text-3xl ">little about me</p>
+          <p className="text-3xl ">A little about me</p>
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vel
             assumenda quo voluptatum deleniti odio ab sint recusandae minima

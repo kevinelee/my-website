@@ -6,7 +6,7 @@ export default function Skills() {
     <>
       <div className="bg-white">
         <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <p className="text-5xl text-center leading-6 font-semibold uppercase text-gray-600 tracking-wider ">
+          <p className="text-1xl md:text-3xl text-center leading-6 font-semibold uppercase text-gray-600 tracking-wider ">
             Skills
           </p>
           <div className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-3 lg:mt-8">

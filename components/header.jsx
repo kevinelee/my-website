@@ -18,7 +18,7 @@ export default function Header() {
               </div>
               <div className="hidden md:flex md:space-x-10">
                 <a
-                  href="#"
+                  href=""
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   <Link
@@ -33,7 +33,7 @@ export default function Header() {
                   </Link>
                 </a>
                 <a
-                  href="#"
+                  href=""
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   <Link
@@ -48,7 +48,8 @@ export default function Header() {
                   </Link>
                 </a>
                 <a
-                  href="#"
+                  style={{cursor: "pointer" }}
+                  href=""
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   <Link
@@ -63,7 +64,7 @@ export default function Header() {
                   </Link>
                 </a>
                 <a
-                  href="#"
+                  href=""
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   <Link
@@ -78,7 +79,7 @@ export default function Header() {
                   </Link>
                 </a>
                 <a
-                  href="#"
+                  href=""
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   <Link

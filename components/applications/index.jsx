@@ -11,7 +11,7 @@ export default function Applications() {
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center">
             <h2 className="text-3xl md:text-5xl text-center leading-6 font-semibold uppercase text-gray-600 tracking-wider ">
-              &mdash; Applications &mdash;
+              Applications
             </h2>
             <p className="mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-500 sm:mt-4">
               Check out some of the applications I've worked on and created!

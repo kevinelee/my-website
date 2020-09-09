@@ -52,7 +52,7 @@ export default function ContactMe(){
     </div>
     <div className="mt-8">
       <p className="text-center text-base leading-6 text-gray-400">
-        &copy; 2020 Kevin E. Lee, All rights reserved.
+        &copy; 2020 Kevin E. Lee
       </p>
     </div>
   </div>

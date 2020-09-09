@@ -34,7 +34,7 @@ export default function Home() {
           <Intro />
         </Section>
 
-        <Section number="2" className="bg-gray-100 p-16">
+        <Section number="2" className="bg-gray-100 p-4">
           <Bio />
         </Section>
 

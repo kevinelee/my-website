@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <Head>
         <title>Kevin E. Lee</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/k.png" />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
         <link
           rel="stylesheet"

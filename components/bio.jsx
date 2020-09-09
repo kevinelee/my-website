@@ -47,11 +47,11 @@ export default function Bio() {
                 </a>
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <link rel="icon" href="/resume 092020.pdf" />
+                {/* <link rel="icon" href="/Resume 092020.pdf" /> */}
                 <a href="/Resume 092020.pdf">
                   <img
                     className="h-12 hover"
-                    src="https://www.freepngimg.com/thumb/resume/9-2-resume-picture.png"
+                    src="https://cdn1.iconfinder.com/data/icons/feather-2/24/paperclip-512.png"
                     alt="resume"
                   />
                 </a>

@@ -65,7 +65,7 @@ export default function ContactMe() {
         </a>
       </div>
       <div className="mt-8">
-        <p className="text-center text-base leading-6 text-gray-400 mb-2  ">
+        <p className="text-center text-base leading-6 text-gray-400">
           &copy; 2020 Kevin E. Lee
         </p>
       </div>

@@ -47,7 +47,6 @@ export default function Bio() {
                 </a>
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                {/* <link rel="icon" href="/Resume 092020.pdf" /> */}
                 <a href="/Resume 092020.pdf">
                   <img
                     className="h-12 hover"

@@ -4,14 +4,14 @@ export default function Bio() {
   return (
     <>
       <div className="flex justify-center">
-           <div className=" flex justify-center p-8 flex-col text-center">
+           <div className=" flex justify-center p-4 flex-col text-center">
           <img
             className="rounded-full h-36 w-36 m-auto"
             src="https://avatars2.githubusercontent.com/u/56710563?s=460&u=181725246b9e4928501cab97039dcf70e5f82f2b&v=4"
             alt="kevin"
           />
           <p className="text-3xl ">A little about me</p>
-          <p className="">
+          <p className="md:max-w-2xl lg:max-w-5xl ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vel
             assumenda quo voluptatum deleniti odio ab sint recusandae minima
             commodi laudantium eum culpa, animi cum libero natus pariatur eaque
@@ -26,7 +26,7 @@ export default function Bio() {
             odio similique.
           </p>
 
-          <div className="flex justify-center max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-center max-w-screen-xl mx-auto pt-6 px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-3 gap-8 md:grid-cols-3 lg:grid-cols-3">
               <div className="col-span-1 flex flex-row justify-center md:col-span-2 lg:col-span-1">
                 <a href="https://www.linkedin.com/in/kevinelee/">

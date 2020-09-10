@@ -4,8 +4,8 @@ export default function Applications() {
 
   return (
     <>
-      <div className="relative  pt-10 px-4 sm:px-6 lg:pt-16 lg:px-8">
-        <div className="absolute inset-0">
+      <div className="relative  pt-10 px-4 sm:px-6 lg:py-12 lg:px-8">
+        <div className="absolute">
           <div className="bg-white h-1/3 sm:h-2/3"></div> 
         </div>
         <div className="relative max-w-7xl mx-auto">
@@ -17,11 +17,11 @@ export default function Applications() {
               Check out some of the applications I've worked on and created!
             </p>
           </div>
-          <div className="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
+          <div className="mt-6 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
             <ApplicationCard
               imgLink="https://www.hotspawn.com/app/uploads/2018/08/hearthstone_whatis.png"
               applicationLink="https://memory-match.kevinelee.com"
-              type="game"
+              type="Game"
               title="Hearthstone Memory Match"
               description="Interactive game based off your favorite Blizzard Trading
                       Card Game"

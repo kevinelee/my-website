@@ -13,7 +13,7 @@ const ApplicationCard = ({
       <div className="flex-1 bg-white p-6 flex flex-col justify-between">
         <div className="flex-1">
           <p className="text-sm leading-5 font-medium text-indigo-600">
-            <a href="" className="hover:underline">
+            <a href={applicationLink} className="hover:underline">
               {type}
             </a>
           </p>

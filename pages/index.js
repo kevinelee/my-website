@@ -30,15 +30,15 @@ export default function Home() {
           <Header />
         </Section>
 
-        <Section number="1" className="p-4">
+        {/* <Section number="1" className="p-4">
           <Intro />
-        </Section>
+        </Section> */}
 
-        <Section number="2" className="bg-gray-100 p-4">
+        <Section number="2" className=" p-4">
           <Bio />
         </Section>
 
-        <Section number="3">
+        <Section number="3" className="bg-gray-100">
           <Applications />
         </Section>
 

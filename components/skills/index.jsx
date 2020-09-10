@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <>
       <div className="bg-white">
-        <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-12 lg:px-8">
           <p className="text-1xl md:text-3xl text-center leading-6 font-semibold uppercase text-gray-600 tracking-wider ">
             Skills
           </p>

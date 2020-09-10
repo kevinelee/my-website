@@ -20,12 +20,12 @@ export default function Intro() {
   }, [magicName]);
 
   return (
-    <main className=" mx-auto max-w-screen-xl px-4  sm:px-6  ">
+    <div className=" mx-auto max-w-screen-xl px-4  sm:px-6  ">
       <div className="text-center">
         <h2 className="pt-4 pb-4 text-2xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-1xl sm:leading-none md:text-6xl">
           Hi, I'm Kevin, and I am a {name}
         </h2>
       </div>
-    </main>
+    </div>
   );
 }

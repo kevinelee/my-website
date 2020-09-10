@@ -4,7 +4,7 @@ export default function Applications() {
 
   return (
     <>
-      <div className="relative  pt-10 px-4 sm:px-6 lg:py-12 lg:px-8">
+      <div className="relative  pt-10 px-4 sm:px-6 py-12 lg:px-8">
         <div className="absolute">
           <div className="bg-white h-1/3 sm:h-2/3"></div> 
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import useTypewriter from "react-typewriter-hook";
 import { useState, useEffect, useRef } from "react";
 
-const MagicOcean = ["designer", "bingebonge ", "example", "whyxample"];
+const MagicOcean = ["a designer.", "a developer.", "an engineer.", "a problem-solver."];
 let index = 0;
 
 export default function Bio() {
@@ -24,7 +24,7 @@ export default function Bio() {
   return (
     <>
       <div className="flex justify-center">
-        <div className=" flex justify-center lg:py-12 flex-col ">
+        <div className=" flex justify-center py-12 flex-col ">
           <img
             className="rounded-full h-36 w-36 m-auto"
             src="https://avatars2.githubusercontent.com/u/56710563?s=460&u=181725246b9e4928501cab97039dcf70e5f82f2b&v=4"
@@ -32,8 +32,8 @@ export default function Bio() {
           />
           <div className=" mx-auto max-w-screen-xl px-4  sm:px-6  ">
             <div className="text-center">
-              <h2 className="pt-4 pb-4 text-2xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-1xl sm:leading-none md:text-6xl">
-                Hi, I'm Kevin, and I am a {name}
+              <h2 className="pt-4 pb-4 text-2xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-1xl sm:leading-none md:text-3xl">
+                Hi, I'm Kevin, and I am {name}
               </h2>
             </div>
           </div>

@@ -34,7 +34,7 @@ export default function Home() {
           <Intro />
         </Section> */}
 
-        <Section number="2" className=" p-4">
+        <Section number="2" className="">
           <Bio />
         </Section>
 

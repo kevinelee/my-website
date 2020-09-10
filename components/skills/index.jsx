@@ -10,7 +10,7 @@ export default function Skills() {
           <p className="text-1xl md:text-3xl text-center leading-6 font-semibold uppercase text-gray-600 tracking-wider ">
             Skills
           </p>
-          <div className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-3 lg:mt-8">
+          <div className="px-6 mt-6 grid grid-cols-2 gap-3 md:grid-cols-3 lg:mt-8">
             <Skill
               link="https://reactjs.org/"
               className="max-h-28 hover"
@@ -19,19 +19,19 @@ export default function Skills() {
             />
             <Skill
               link="https://www.javascript.com/"
-              className="max-h-24 hover hover"
+              className="max-h-24 hover mt-2"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
               alt="JavaScript"
             />
             <Skill
               link="https://nodejs.org/en/"
-              className="max-h-24 hover"
+              className="max-h-24 hover mt-2"
               src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
               alt="Node.js"
             />
             <Skill
               link="https://www.postgresql.org/"
-              className="max-h-24 hover"
+              className="max-h-24 hover mt-1"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"
               alt="PostgreSQL"
             />

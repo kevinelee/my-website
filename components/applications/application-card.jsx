@@ -4,6 +4,7 @@ const ApplicationCard = ({
   type,
   title,
   description,
+  languages,
 }) => {
   return (
     <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
@@ -24,6 +25,7 @@ const ApplicationCard = ({
             <p className="mt-3 text-base leading-6 text-gray-500">
               {description}
             </p>
+            <p className="mt-4 font-medium">{languages}</p>
           </a>
         </div>
       </div>

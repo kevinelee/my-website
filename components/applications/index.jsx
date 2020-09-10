@@ -1,12 +1,11 @@
-import ApplicationCard from './application-card'
+import ApplicationCard from "./application-card";
 
 export default function Applications() {
-
   return (
     <>
       <div className="relative  pt-10 px-4 sm:px-6 py-12 lg:px-8">
         <div className="absolute">
-          <div className="bg-white h-1/3 sm:h-2/3"></div> 
+          <div className="bg-white h-1/3 sm:h-2/3"></div>
         </div>
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center">
@@ -25,6 +24,7 @@ export default function Applications() {
               title="Hearthstone Memory Match"
               description="Interactive game based off your favorite Blizzard Trading
                       Card Game"
+              languages="HTML5 | CSS3 | JavaScript(ES5/ES6)"
             />
 
             <ApplicationCard
@@ -33,6 +33,7 @@ export default function Applications() {
               type="Shop"
               title="Ace Tennis Goods"
               description="Shopping website for browsing tennis goods"
+              languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | PostgreSQL | Express | Bootstrap 4"
             />
 
             <ApplicationCard
@@ -42,6 +43,7 @@ export default function Applications() {
               title="ART4BID"
               description="  An application to view and upload posts allowing the
                       bidding on items"
+              languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | PostgreSQL | Express | Bootstrap 4"
             />
           </div>
         </div>

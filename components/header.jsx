@@ -10,9 +10,9 @@ export default function Header() {
           <div className="relative h-full max-w-screen-xl mx-auto"></div>
         </div>
 
-        <div className="relative pt-6 pb-4 sm:pb-8 md:pb-8 lg:pb-8 xl:pb-8">
+        <div className="relative py-6">
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6">
-            <nav className="relative flex items-center justify-between sm:h-10 md:justify-center">
+            <nav className="relative flex items-center justify-between sm:h-4 md:justify-center">
               <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                 <div className="flex items-center justify-between w-full md:w-auto"></div>
               </div>

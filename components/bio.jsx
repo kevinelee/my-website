@@ -23,6 +23,7 @@ export default function Bio() {
   return (
     <>
       <div className="flex justify-center">
+        <div className="bio-bg"></div>
         <div className=" flex justify-center py-12 flex-col ">
           <img
             className="rounded-full h-36 w-36 m-auto"
@@ -30,25 +31,32 @@ export default function Bio() {
             alt="kevin"
           />
           <div className=" text-center mx-auto max-w-sm  px-4 w-9/12 h-24 sm:px-6 md:max-w-none md:h-12 ">
-            
-              <h2 className="pt-4 pb-4 text-2xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-1xl sm:leading-none md:text-3xl md:max-w-screen-xl">
-                Hi, I'm Kevin, and I am {name}
-              </h2>
-            
+            <h2 className="pt-4 pb-4 text-2xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-1xl sm:leading-none md:text-3xl md:max-w-screen-xl">
+              Hi, I'm Kevin, and I am {name}
+            </h2>
           </div>
-          <p className="md:max-w-2xl lg:max-w-5xl px-6 py-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vel
-            assumenda quo voluptatum deleniti odio ab sint recusandae minima
-            commodi laudantium eum culpa, animi cum libero natus pariatur eaque
-            accusantium iusto. Tempore, exercitationem, quo sequi tenetur
-            repellendus voluptatum blanditiis id optio ducimus voluptatem iure
-            ab neque, ratione nobis! Iusto cupiditate fugiat ut a distinctio,
-            tempore earum architecto doloribus asperiores, ratione temporibus
-            animi! Consequuntur libero similique minima tempore ex maxime
-            repellat maiores, placeat sint esse facere totam, culpa ratione
-            impedit in deserunt saepe beatae rem laudantium recusandae pariatur
-            accusamus suscipit ea! Eaque amet quasi est et tempora nesciunt odit
-            odio similique.
+          <p className="md:max-w-2xl lg:max-w-5xl px-6 pt-4 pb-2">
+            Hi, I'm Kevin E. Lee, and I'm a full-stack web developer. I've
+            always been interested in the make-up of whatever I could get my
+            hands on. Deconstructing and reconstructing has always been a hobby
+            of mine, and I've discovered an avenue to do just that!
+          </p>
+          <p className="md:max-w-2xl lg:max-w-5xl px-6 py-2">
+            After graduating from CSU, Long Beach, I entered the
+            freight-forwarding industry. I spent countless hours on Excel and
+            the company's shipping software, Freightstream. I was constantly
+            trying to find more efficient ways to maneuver and navigate through
+            Freightstream until I inevitably reached the software's limitations.
+            Each time, all I wanted was to be able to hop under the hood to
+            fine-tune it to my liking.  I came to realize I was far more interested
+            in how I was working rather than the work itself.
+          </p>
+          <p className="md:max-w-2xl lg:max-w-5xl px-6 py-2">
+            With that revelation in mind, I entered and completed a full-time
+            coding bootcamp, LearningFuze. I'm now able to create and polish
+            applications and take ownership of my own craft. Using these
+            newfound talents, I plan to contribute to future teams and push my
+            own limits!
           </p>
 
           <div className="flex justify-center max-w-screen-xl mx-auto pt-6 px-4 sm:px-6 lg:px-8">

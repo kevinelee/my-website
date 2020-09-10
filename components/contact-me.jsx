@@ -2,7 +2,7 @@ export default function ContactMe() {
   return (
     <div className="max-w-screen-xl mx-auto py-4 pb-4 md:pb-3 px-4 overflow-hidden sm:px-6 lg:px-8">
       <nav className="-mx-5 -my-2 flex flex-wrap flex-col justify-center items-center md:flex-row">
-        <div className="my-2 md:mt-0 py-2 px-5 flex justify-center">
+        <div className="my-2 md:mt-0 py-1 px-5 flex justify-center">
           <a
             href="https://www.linkedin.com/in/kevinelee/"
             className="text-gray-400 hover:text-gray-200"

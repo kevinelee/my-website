@@ -28,6 +28,7 @@ export default function Header() {
                     smooth={true}
                     offset={-70}
                     duration={500}
+                    style={{cursor: "pointer" }}
                   >
                     Home
                   </Link>
@@ -35,6 +36,7 @@ export default function Header() {
                 <a
                   href=""
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+                  style={{cursor: "pointer" }}
                 >
                   <Link
                     activeClass="active"
@@ -43,6 +45,7 @@ export default function Header() {
                     smooth={true}
                     offset={-70}
                     duration={500}
+                    style={{cursor: "pointer" }}
                   >
                     About Me
                   </Link>
@@ -59,6 +62,7 @@ export default function Header() {
                     smooth={true}
                     offset={-70}
                     duration={500}
+                    style={{cursor: "pointer" }}
                   >
                     Applications
                   </Link>
@@ -74,6 +78,7 @@ export default function Header() {
                     smooth={true}
                     offset={-70}
                     duration={500}
+                    style={{cursor: "pointer" }}
                   >
                     Skills
                   </Link>
@@ -89,6 +94,7 @@ export default function Header() {
                     smooth={true}
                     offset={-70}
                     duration={500}
+                    style={{cursor: "pointer" }}
                   >
                     Contact Me
                   </Link>

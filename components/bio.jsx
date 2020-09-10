@@ -2,12 +2,11 @@ import React from "react";
 import useTypewriter from "react-typewriter-hook";
 import { useState, useEffect, useRef } from "react";
 
-const MagicOcean = ["a designer.", "a developer.", "an engineer.", "a problem-solver."];
+const MagicOcean = ["a developer.", "an engineer.", "a problem-solver."];
 let index = 0;
 
 export default function Bio() {
-
-  const [magicName, setMagicName] = useState("software developer");
+  const [magicName, setMagicName] = useState("a designer.");
   const intervalRef = useRef({});
   const name = useTypewriter(magicName);
   useEffect(() => {
@@ -30,14 +29,14 @@ export default function Bio() {
             src="https://avatars2.githubusercontent.com/u/56710563?s=460&u=181725246b9e4928501cab97039dcf70e5f82f2b&v=4"
             alt="kevin"
           />
-          <div className=" mx-auto max-w-screen-xl px-4  sm:px-6  ">
-            <div className="text-center">
-              <h2 className="pt-4 pb-4 text-2xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-1xl sm:leading-none md:text-3xl">
+          <div className=" text-center mx-auto max-w-sm  px-4 w-9/12 h-24 sm:px-6 md:max-w-none md:h-12 ">
+            
+              <h2 className="pt-4 pb-4 text-2xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-1xl sm:leading-none md:text-3xl md:max-w-screen-xl">
                 Hi, I'm Kevin, and I am {name}
               </h2>
-            </div>
+            
           </div>
-          <p className="md:max-w-2xl lg:max-w-5xl ">
+          <p className="md:max-w-2xl lg:max-w-5xl px-6 py-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vel
             assumenda quo voluptatum deleniti odio ab sint recusandae minima
             commodi laudantium eum culpa, animi cum libero natus pariatur eaque

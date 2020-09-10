@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
-
 export default function Header() {
   return (
     <div>
@@ -17,10 +16,7 @@ export default function Header() {
                 <div className="flex items-center justify-between w-full md:w-auto"></div>
               </div>
               <div className="hidden md:flex md:space-x-10">
-                <a
-                  href=""
-                  className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
+                <div className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
                   <Link
                     activeClass="active"
                     to="section0"
@@ -28,15 +24,15 @@ export default function Header() {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    style={{cursor: "pointer" }}
+                    style={{ cursor: "pointer" }}
                   >
                     Home
                   </Link>
-                </a>
-                <a
+                </div>
+                <div
                   href=""
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-                  style={{cursor: "pointer" }}
+                  style={{ cursor: "pointer" }}
                 >
                   <Link
                     activeClass="active"
@@ -45,13 +41,13 @@ export default function Header() {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    style={{cursor: "pointer" }}
+                    style={{ cursor: "pointer" }}
                   >
                     About Me
                   </Link>
-                </a>
-                <a
-                  style={{cursor: "pointer" }}
+                </div>
+                <div
+                  style={{ cursor: "pointer" }}
                   href=""
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
@@ -62,12 +58,12 @@ export default function Header() {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    style={{cursor: "pointer" }}
+                    style={{ cursor: "pointer" }}
                   >
                     Applications
                   </Link>
-                </a>
-                <a
+                </div>
+                <div
                   href=""
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
@@ -78,12 +74,12 @@ export default function Header() {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    style={{cursor: "pointer" }}
+                    style={{ cursor: "pointer" }}
                   >
                     Skills
                   </Link>
-                </a>
-                <a
+                </div>
+                <div
                   href=""
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
@@ -94,11 +90,11 @@ export default function Header() {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    style={{cursor: "pointer" }}
+                    style={{ cursor: "pointer" }}
                   >
                     Contact Me
                   </Link>
-                </a>
+                </div>
               </div>
               <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <span className="inline-flex rounded-md shadow"></span>

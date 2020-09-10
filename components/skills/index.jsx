@@ -13,7 +13,7 @@ export default function Skills() {
           <div className="px-6 mt-6 grid grid-cols-2 gap-3 md:grid-cols-3 lg:mt-8">
             <Skill
               link="https://reactjs.org/"
-              className="max-h-28 hover"
+              className="max-h-28 hover mt-2"
               src="https://cdn.auth0.com/blog/react-js/react.png"
               alt="React"
             />

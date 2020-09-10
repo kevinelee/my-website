@@ -15,7 +15,7 @@ export default function Header() {
               <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                 <div className="flex items-center justify-between w-full md:w-auto"></div>
               </div>
-              <div className="hidden md:flex md:space-x-10">
+              <div className="hidden sm:flex md:space-x-10">
                 <div className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
                   <Link
                     activeClass="active"

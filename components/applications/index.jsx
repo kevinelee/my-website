@@ -18,7 +18,7 @@ export default function Applications() {
           </div>
           <div className="mt-6 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
             <ApplicationCard
-              imgLink="https://www.hotspawn.com/app/uploads/2018/08/hearthstone_whatis.png"
+              imgLink="/hearthstone.png"
               applicationLink="https://memory-match.kevinelee.com"
               type="Game"
               title="Hearthstone Memory Match"
@@ -28,7 +28,7 @@ export default function Applications() {
             />
 
             <ApplicationCard
-              imgLink="https://www.snowcreekathleticclub.com/wp-content/uploads/2013/09/Tennis-Banner-e1463607515232.jpg"
+              imgLink="/tennis.jpg"
               applicationLink="https://ace-tennis.kevinelee.com"
               type="Shop"
               title="Ace Tennis Goods"
@@ -37,7 +37,7 @@ export default function Applications() {
             />
 
             <ApplicationCard
-              imgLink="https://www.calendarp.com/wp-content/uploads/2019/02/YouTube-Channel-Art-CP-006.jpg"
+              imgLink="/art.jpg"
               applicationLink="https://art4bid.kevinelee.com"
               type="Social Media"
               title="ART4BID"

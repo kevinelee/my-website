@@ -30,7 +30,7 @@ export default function Bio() {
             src="https://avatars2.githubusercontent.com/u/56710563?s=460&u=181725246b9e4928501cab97039dcf70e5f82f2b&v=4"
             alt="kevin"
           />
-          <div className=" text-center mx-auto max-w-sm  px-4 w-9/12 h-24 sm:px-6 md:max-w-none md:h-12 ">
+          <div className=" text-center mx-auto max-w-sm  px-4 w-9/12 h-24 sm:px-6 md:max-w-none md:h-20 lg:h-12 ">
             <h2 className="pt-4 pb-4 text-2xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-1xl sm:leading-none md:text-3xl md:max-w-screen-xl">
               Hi, I'm Kevin, and I am {name}
             </h2>
@@ -61,12 +61,12 @@ export default function Bio() {
 
 
           <div className="flex justify-center max-w-screen-xl mx-auto pt-6 px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-3 gap-8 md:grid-cols-3 lg:grid-cols-3">
+            <div className="grid grid-cols-3 gap-8 md:grid-cols-6 lg:grid-cols-3">
               <div className="col-span-1 flex flex-row justify-center md:col-span-2 lg:col-span-1">
                 <a href="https://www.linkedin.com/in/kevinelee/">
                   <img
                     className="h-12 hover"
-                    src="https://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png"
+                    src="/linkedin-icon.png"
                     alt="linkedin"
                   />
                 </a>
@@ -75,7 +75,7 @@ export default function Bio() {
                 <a href="https://github.com/kevinelee">
                   <img
                     className="h-12 hover"
-                    src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                    src="/github-icon.png"
                     alt="github"
                   />
                 </a>
@@ -84,7 +84,7 @@ export default function Bio() {
                 <a href="/Resume 092020.pdf">
                   <img
                     className="h-12 hover"
-                    src="https://cdn1.iconfinder.com/data/icons/feather-2/24/paperclip-512.png"
+                    src="/paperclip-icon.webp"
                     alt="resume"
                   />
                 </a>

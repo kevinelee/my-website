@@ -22,7 +22,7 @@ export default function Bio() {
 
   return (
     <>
-      <div className="flex justify-center">
+      <div className="flex justify-center relative">
         <div className="bio-bg"></div>
         <div className=" flex justify-center py-12 flex-col ">
           <img

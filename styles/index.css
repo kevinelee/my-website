@@ -18,12 +18,29 @@
 }
 
 .bio-bg {
-  background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2018/12/Information-technology-big-data-collection-complex.jpg");
+  background-image: url("https://previews.123rf.com/images/liligraphie/liligraphie1710/liligraphie171000149/88300698-office-workplace-with-laptop-calendar-book-and-glasses-on-wooden-table-business-background-with-copy.jpg");
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  /* inset: 0; */
-  opacity: 30%;
+  opacity: 15%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute
 }
 
+
+
+.skills-bg {
+  background-image: url("https://lh3.googleusercontent.com/proxy/uwfucMGQDmeFWhudirEbJupqCAZzTpWELXt9NDKfof1LhaRVkVuPyloNVKGtr-dTvy9bPM3A-mWO2SqgrEM_xYogDG0phUEoDIuw7KcneITEd-gUUs6-BitWnUofxuMpQEyOiQRl6Q2qAnFu6ql7JpEIxBgq8CDy7CSOgg");
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 10%;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute
+}

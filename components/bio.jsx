@@ -23,7 +23,7 @@ export default function Bio() {
   return (
     <>
       <div className="flex justify-center relative">
-        <div className="bio-bg"></div>
+        <div className="bio-bg" style={{opacity: "15%"}}></div>
         <div className=" flex justify-center py-12 flex-col ">
           <img
             className="rounded-full h-36 w-36 m-auto"

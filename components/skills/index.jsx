@@ -5,9 +5,8 @@ export default function Skills() {
   return (
     <>
       <div className="bg-white relative">
-      <div className="skills-bg"></div>
+        <div className="skills-bg " style={{ opacity: "15%" }}></div>
         <div className="max-w-screen-xl md:max-w-2xl lg:max-w-7xl mx-auto py-12 px-0 sm:px-6 py-12 lg:px-0 relative">
-         
           <p className="text-1xl md:text-3xl text-center leading-6 font-semibold uppercase text-gray-600 tracking-wider ">
             Skills
           </p>

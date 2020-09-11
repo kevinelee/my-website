@@ -19,7 +19,7 @@ export default function Header() {
                 <div className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
                   <Link
                     activeClass="active"
-                    to="section0"
+                    to="section2"
                     spy={true}
                     smooth={true}
                     offset={-70}

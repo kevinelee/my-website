@@ -29,7 +29,7 @@ export default function Applications() {
 
             <ApplicationCard
               imgLink="/tennis.jpg"
-              applicationLink="https://ace-tennis.kevinelee.com"
+              applicationLink="http://ace-tennis.kevinelee.com"
               type="Shop"
               title="Ace Tennis Goods"
               description="Shopping website for browsing tennis goods"

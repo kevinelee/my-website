@@ -2,6 +2,14 @@ import React from "react";
 import Skill from "./skill-div";
 
 export default function Skills() {
+
+  const skills = [
+    {link: '', className: '', src:'', alt:''},
+
+  ]
+
+  
+
   return (
     <>
       <div className="bg-white relative">
@@ -11,6 +19,11 @@ export default function Skills() {
             Skills
           </p>
           <div className="px-6 mt-6 grid grid-cols-2 gap-3 md:grid-cols-3 lg:mt-8">
+            {
+              skills.map((skill, index) => {
+                return <Skill key={`${skill.link}-${index}`} {...skill}/>
+              })
+            }
             <Skill
               link="https://reactjs.org/"
               className="max-h-28 hover mt-2"

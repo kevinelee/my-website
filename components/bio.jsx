@@ -65,7 +65,7 @@ export default function Bio() {
               <div className="col-span-1 flex flex-row justify-center md:col-span-2 lg:col-span-1">
                 <a href="https://www.linkedin.com/in/kevinelee/">
                   <img
-                    className="h-12 hover"
+                    className="h-6 hover"
                     src="/linkedin-icon.png"
                     alt="linkedin"
                   />
@@ -74,7 +74,7 @@ export default function Bio() {
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                 <a href="https://github.com/kevinelee">
                   <img
-                    className="h-12 hover"
+                    className="h-6 hover"
                     src="/github-icon.png"
                     alt="github"
                   />
@@ -83,7 +83,7 @@ export default function Bio() {
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                 <a href="/Resume 092020.pdf">
                   <img
-                    className="h-12 hover"
+                    className="h-6 hover"
                     src="/paperclip-icon.webp"
                     alt="resume"
                   />

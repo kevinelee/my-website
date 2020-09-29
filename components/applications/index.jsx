@@ -45,6 +45,21 @@ export default function Applications() {
                       bidding on items"
               languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | PostgreSQL | Express | Bootstrap 4"
             />
+
+            <ApplicationCard
+              imgLink="https://i1.wp.com/homishome.com/wp-content/uploads/2019/06/gorgeous-small-backyard-landscaping-ideas34.jpg?fit=1024%2C744&ssl=1"
+              applicationLink="https://zion-landscaping.netlify.app"
+              type="Services"
+              title="Zion Landscaping"
+              description="Looking for expert landscaping services?  Click here!"
+              languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | Tailwind | Gatsby"
+            />
+
+            <ApplicationCard
+              imgLink="https://fwtx.com/downloads/22719/download/coming-soon.png?cb=ef8dbfa3204e40cc01f6514a1781bb25"
+              title="Coming Soon"
+              description="Currently in the workings!"
+            />
           </div>
         </div>
       </div>

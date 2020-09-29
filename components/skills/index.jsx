@@ -75,7 +75,7 @@ export default function Skills() {
             <Skill
               link="https://jquery.com/"
               className="max-h-24 hover"
-              src="jquery-icon.webp"
+              src="jquery-icon.png"
               alt="Jquery"
             />
           </div>

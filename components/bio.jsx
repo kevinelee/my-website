@@ -84,7 +84,7 @@ export default function Bio() {
                 <a href="/Resume 092020.pdf">
                   <img
                     className="h-6 hover"
-                    src="/paperclip-icon.webp"
+                    src="/paperclip-icon.png"
                     alt="resume"
                   />
                 </a>

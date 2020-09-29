@@ -56,6 +56,7 @@ export default function Applications() {
             />
 
             <ApplicationCard
+              type="WIP"
               imgLink="https://fwtx.com/downloads/22719/download/coming-soon.png?cb=ef8dbfa3204e40cc01f6514a1781bb25"
               title="Coming Soon"
               description="Currently in the workings!"

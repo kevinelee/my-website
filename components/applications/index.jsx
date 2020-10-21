@@ -25,6 +25,7 @@ export default function Applications() {
               description="Interactive game based off your favorite Blizzard Trading
                       Card Game"
               languages="HTML5 | CSS3 | JavaScript(ES5/ES6)"
+              githubLink="https://github.com/kevinelee/memory_match"
             />
 
             <ApplicationCard
@@ -34,6 +35,8 @@ export default function Applications() {
               title="Ace Tennis Goods"
               description="Shopping website for browsing tennis goods"
               languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | PostgreSQL | Express | Bootstrap 4"
+              githubLink="https://github.com/kevinelee/ace-tennis-goods"
+              
             />
 
             <ApplicationCard
@@ -44,6 +47,8 @@ export default function Applications() {
               description="  An application to view and upload posts allowing the
                       bidding on items"
               languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | PostgreSQL | Express | Bootstrap 4"
+              githubLink="https://github.com/seongkevinlee/art4bid"
+              
             />
 
             <ApplicationCard
@@ -53,6 +58,7 @@ export default function Applications() {
               title="Zion Landscaping"
               description="Looking for expert landscaping services?  Click here!"
               languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | Tailwind | Gatsby"
+              githubLink="https://github.com/kevinelee/zion-landscaping"
             />
 
             <ApplicationCard
@@ -60,6 +66,8 @@ export default function Applications() {
               imgLink="https://fwtx.com/downloads/22719/download/coming-soon.png?cb=ef8dbfa3204e40cc01f6514a1781bb25"
               title="Coming Soon"
               description="Currently in the workings!"
+              githubLink="https://github.com/kevinelee"
+              
             />
           </div>
         </div>

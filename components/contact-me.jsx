@@ -5,7 +5,7 @@ export default function ContactMe() {
         <div className=" md:mt-0 py-2 px-5 flex justify-center">
           <a
             href="https://www.linkedin.com/in/kevinelee/"
-            className="text-gray-400 hover:text-gray-200"
+            className="text-gray-300 hover:text-gray-100"
           >
             <span className="sr-only">LinkedIn</span>
             <svg
@@ -19,7 +19,7 @@ export default function ContactMe() {
           </a>
           <a
             href="https://github.com/kevinelee"
-            className="ml-6 text-gray-400 hover:text-gray-200"
+            className="ml-6 text-gray-300 hover:text-gray-100"
           >
             <span className="sr-only">GitHub</span>
             <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -31,8 +31,8 @@ export default function ContactMe() {
             </svg>
           </a>
           <a
-            href="./Resume 092020.pdf"
-            className="ml-6 text-gray-400 hover:text-gray-200"
+            href="./Kevin E. Lee.pdf"
+            className="ml-6 text-gray-300 hover:text-gray-100"
           >
             <span className="sr-only">Resume</span>
             <svg
@@ -54,13 +54,13 @@ export default function ContactMe() {
           </a>
         </div>
         <div className="px-5 py-2 border-t md:border-l md:border-t-0 border-gray-400">
-          <div className="text-base leading-6 text-gray-400">
+          <div className="text-base leading-6 text-gray-300">
             Orange County, CA
           </div>
         </div>
         <div className="px-5 py-2">
           <a href="tel:5624055872">
-            <div className="text-base leading-6 text-gray-400 hover:text-gray-200">
+            <div className="text-base leading-6 text-gray-300 hover:text-gray-100">
               562-405-5872
             </div>
           </a>
@@ -68,13 +68,13 @@ export default function ContactMe() {
 
         <div className="px-5 py-2">
           <a href="mailto:kevin.ej.lee@gmail.com">
-            <div className="text-base leading-6 text-gray-400 hover:text-gray-200">
+            <div className="text-base leading-6 text-gray-300 hover:text-gray-100">
               kevin.ej.lee@gmail.com
             </div>
           </a>
         </div>
         <div className="px-5 py-2 border-t md:border-l md:border-t-0 border-gray-400 ">
-          <p className="text-center text-base leading-6 text-gray-400 ">
+          <p className="text-center text-base leading-6 text-gray-300 ">
             &copy; 2020 Kevin E. Lee
           </p>
         </div>

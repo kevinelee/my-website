@@ -29,54 +29,63 @@ export default function Skills() {
               className="max-h-28 hover mt-2"
               src="./react-icon.png"
               alt="React"
+              languageName="React"
             />
             <Skill
               link="https://www.javascript.com/"
               className="max-h-24 hover mt-2"
               src="./js-icon.png"
               alt="JavaScript"
+              languageName="JavaScript"
             />
             <Skill
               link="https://nodejs.org/en/"
               className="max-h-24 hover mt-2"
               src="nodejs-icon.svg"
               alt="Node.js"
+              languageName="Node.js"
             />
             <Skill
               link="https://www.postgresql.org/"
               className="max-h-24 hover mt-1"
               src="postgresql-icon.png"
               alt="PostgreSQL"
+              languageName="PostgreSQL"
             />
             <Skill
               link="https://html.com/"
               className="max-h-24 hover"
               src="html-icon.png"
               alt="HTML5"
+              languageName="HTML5"
             />
             <Skill
               link="https://expressjs.com/"
               className="max-h-24 hover"
               src="express-icon.png"
               alt="Express"
+              languageName="Express"
             />
             <Skill
               link="https://tailwindcss.com/"
               className="max-h-16 mt-4 hover"
               src="tailwind-icon.png"
               alt="Tailwind"
+              languageName="Tailwind"
             />
             <Skill
               link="https://developer.mozilla.org/en-US/docs/Web/CSS"
               className="max-h-24 hover"
               src="css3-icon.png"
               alt="CSS3"
+              languageName="CSS3"
             />
             <Skill
               link="https://jquery.com/"
               className="max-h-24 hover"
               src="jquery-icon.png"
               alt="Jquery"
+              languageName="Jquery"
             />
           </div>
         </div>

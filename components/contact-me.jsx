@@ -59,8 +59,13 @@ export default function ContactMe() {
           </div>
         </div>
         <div className="px-5 py-2">
-          <div className="text-base leading-6 text-gray-400">562-405-5872</div>
+          <a href="tel:5624055872">
+            <div className="text-base leading-6 text-gray-400 hover:text-gray-200">
+              562-405-5872
+            </div>
+          </a>
         </div>
+
         <div className="px-5 py-2">
           <a href="mailto:kevin.ej.lee@gmail.com">
             <div className="text-base leading-6 text-gray-400 hover:text-gray-200">
@@ -69,9 +74,9 @@ export default function ContactMe() {
           </a>
         </div>
         <div className="px-5 py-2 border-t md:border-l md:border-t-0 border-gray-400 ">
-         <p className="text-center text-base leading-6 text-gray-400 ">
-          &copy; 2020 Kevin E. Lee
-        </p>
+          <p className="text-center text-base leading-6 text-gray-400 ">
+            &copy; 2020 Kevin E. Lee
+          </p>
         </div>
       </nav>
     </div>

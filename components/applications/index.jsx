@@ -17,7 +17,7 @@ export default function Applications() {
             </p>
           </div>
           <div className="mt-6 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
-            <ApplicationCard
+            {/* <ApplicationCard
               imgLink="/hearthstone.png"
               applicationLink="https://memory-match.kevinelee.com"
               type="Game"
@@ -26,7 +26,7 @@ export default function Applications() {
                       Card Game"
               languages="HTML5 | CSS3 | JavaScript(ES5/ES6)"
               githubLink="https://github.com/kevinelee/memory_match"
-            />
+            /> */}
 
             <ApplicationCard
               imgLink="/tennis.jpg"

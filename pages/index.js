@@ -25,7 +25,7 @@ export default function Home() {
         ></link>
       </Head>
 
-      <div>
+      <div className="fade-in">
         <Section number="0" className="bg-gray-100 md:sticky md:top-0 z-50 md:shadow-sm">
           <Header />
         </Section>

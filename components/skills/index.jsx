@@ -2,23 +2,17 @@ import React from "react";
 import Skill from "./skill-div";
 
 export default function Skills() {
-
-  const skills = [
-    {link: '', className: '', src:'', alt:''},
-
-  ]
-
-
+  const skills = [{ link: "", className: "", src: "", alt: "" }];
 
   return (
     <>
-      <div className="bg-white relative">
+      <div className="bg-white relative px-4">
         {/* <div className=" " style={{ opacity: "10%" }}></div> */}
         <div className="max-w-screen-xl md:max-w-2xl lg:max-w-7xl mx-auto py-12 px-0 sm:px-6 py-12 lg:px-0 relative">
           <p className="text-1xl md:text-3xl text-center leading-6 font-semibold uppercase text-gray-600 tracking-wider ">
             Skills
           </p>
-          <div className="px-6 mt-6 grid grid-cols-2 gap-3 md:grid-cols-3 lg:mt-8">
+          <div className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-3 lg:mt-8">
             {/* {
               skills.map((skill, index) => {
                 return <Skill key={`${skill.link}-${index}`} {...skill}/>

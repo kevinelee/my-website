@@ -75,7 +75,7 @@ export default function ContactMe() {
         </div>
         <div className="px-5 py-2 border-t md:border-l md:border-t-0 border-gray-400 ">
           <p className="text-center text-base leading-6 text-gray-300 ">
-            &copy; 2020 Kevin E. Lee
+            &copy; 2021 Kevin E. Lee
           </p>
         </div>
       </nav>

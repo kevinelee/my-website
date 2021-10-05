@@ -23,8 +23,8 @@ export default function Bio() {
   return (
     <>
       <div className="flex justify-center relative ">
-        <div className="bio-bg" style={{opacity: "15%"}}></div>
-        <div className=" flex justify-center py-12 flex-col ">
+        <div className="bio-bg" style={{ opacity: "15%" }}></div>
+        <div className=" flex justify-center py-12 px-4 flex-col ">
           <img
             className="rounded-full h-36 w-36 m-auto"
             src="https://avatars2.githubusercontent.com/u/56710563?s=460&u=181725246b9e4928501cab97039dcf70e5f82f2b&v=4"
@@ -35,13 +35,13 @@ export default function Bio() {
               Hi, I'm Kevin, and I am {name}
             </h2>
           </div>
-          <p className="md:max-w-2xl lg:max-w-7xl px-6 pt-4 pb-2">
+          <p className="md:max-w-2xl lg:max-w-7xl  pt-4 pb-2">
             Hi, I'm Kevin E. Lee, and I'm a full-stack web developer. I've
             always been interested in the make-up of whatever I could get my
             hands on. Deconstructing and reconstructing has always been a hobby
             of mine, and I've discovered an avenue to do just that!
           </p>
-          <p className="md:max-w-2xl lg:max-w-7xl px-6 py-2">
+          <p className="md:max-w-2xl lg:max-w-7xl  py-2">
             After graduating from CSU, Long Beach, I entered the
             freight-forwarding industry. I spent countless hours on Excel and
             the company's shipping software, Freightstream. I was constantly
@@ -51,14 +51,13 @@ export default function Bio() {
             fine-tune it to my liking. I came to realize I was far more
             interested in how I was working rather than the work itself.
           </p>
-          <p className="md:max-w-2xl lg:max-w-7xl px-6 py-2">
+          <p className="md:max-w-2xl lg:max-w-7xl  py-2">
             With that revelation in mind, I entered and completed a full-time
             coding bootcamp, LearningFuze. I'm now able to create and polish
             applications and take ownership of my own craft. Using these
             newfound talents, I plan to contribute to future teams and push my
             own limits!
           </p>
-
 
           <div className="flex justify-center max-w-screen-xl mx-auto pt-6 px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-3 gap-8 md:grid-cols-6 lg:grid-cols-3">

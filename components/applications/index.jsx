@@ -17,30 +17,8 @@ export default function Applications() {
             </p>
           </div>
           <div className="mt-6 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
-            {/* <ApplicationCard
-              imgLink="/hearthstone.png"
-              applicationLink="https://memory-match.kevinelee.com"
-              type="Game"
-              title="Hearthstone Memory Match"
-              description="Interactive game based off your favorite Blizzard Trading
-                      Card Game"
-              languages="HTML5 | CSS3 | JavaScript(ES5/ES6)"
-              githubLink="https://github.com/kevinelee/memory_match"
-            /> */}
-
             <ApplicationCard
-              imgLink="/tennis.jpg"
-              applicationLink="https://ace-tennis.kevinelee.com"
-              type="Shop"
-              title="Ace Tennis Goods"
-              description="Shopping website for browsing tennis goods"
-              languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | PostgreSQL | Express | Bootstrap 4"
-              githubLink="https://github.com/kevinelee/ace-tennis-goods"
-              
-            />
-
-            <ApplicationCard
-              imgLink="/art.jpg"
+              imgLink="https://familykimchi.com/_next/image?url=%2Fimages%2Fkimchi-package-bg.jpg&w=1920&q=75"
               applicationLink="https://art4bid.kevinelee.com"
               type="Social Media"
               title="ART4BID"
@@ -48,7 +26,6 @@ export default function Applications() {
                       bidding on items"
               languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | PostgreSQL | Express | Bootstrap 4"
               githubLink="https://github.com/seongkevinlee/art4bid"
-              
             />
 
             <ApplicationCard
@@ -67,8 +44,40 @@ export default function Applications() {
               title="Coming Soon"
               description="Currently in the workings!"
               githubLink="https://github.com/kevinelee"
-              
             />
+
+            {/* <ApplicationCard
+              imgLink="/hearthstone.png"
+              applicationLink="https://memory-match.kevinelee.com"
+              type="Game"
+              title="Hearthstone Memory Match"
+              description="Interactive game based off your favorite Blizzard Trading
+                      Card Game"
+              languages="HTML5 | CSS3 | JavaScript(ES5/ES6)"
+              githubLink="https://github.com/kevinelee/memory_match"
+            /> */}
+
+            {/* <ApplicationCard
+              imgLink="/tennis.jpg"
+              applicationLink="https://ace-tennis.kevinelee.com"
+              type="Shop"
+              title="Ace Tennis Goods"
+              description="Shopping website for browsing tennis goods"
+              languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | PostgreSQL | Express | Bootstrap 4"
+              githubLink="https://github.com/kevinelee/ace-tennis-goods"
+              
+            /> */}
+
+            {/* <ApplicationCard
+              imgLink="/art.jpg"
+              applicationLink="https://art4bid.kevinelee.com"
+              type="Social Media"
+              title="ART4BID"
+              description="  An application to view and upload posts allowing the
+                      bidding on items"
+              languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | PostgreSQL | Express | Bootstrap 4"
+              githubLink="https://github.com/seongkevinlee/art4bid"
+            /> */}
           </div>
         </div>
       </div>

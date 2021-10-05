@@ -62,7 +62,11 @@ export default function Bio() {
           <div className="flex justify-center max-w-screen-xl mx-auto pt-6 px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-3 gap-8 md:grid-cols-6 lg:grid-cols-3">
               <div className="col-span-1 flex flex-row justify-center md:col-span-2 lg:col-span-1">
-                <a href="https://www.linkedin.com/in/kevinelee/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/kevinelee/"
+                >
                   <img
                     className="h-6 hover"
                     src="/linkedin-icon.png"
@@ -71,7 +75,11 @@ export default function Bio() {
                 </a>
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <a href="https://github.com/kevinelee">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/kevinelee"
+                >
                   <img
                     className="h-6 hover"
                     src="/github-icon.png"
@@ -80,7 +88,11 @@ export default function Bio() {
                 </a>
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <a target="_blank" rel="noopener noreferrer"  href="/Kevin E. Lee.pdf">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/Kevin E. Lee.pdf"
+                >
                   <img
                     className="h-6 hover"
                     src="/paperclip-icon.png"

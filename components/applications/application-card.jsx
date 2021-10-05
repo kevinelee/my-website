@@ -8,9 +8,16 @@ const ApplicationCard = ({
   githubLink,
 }) => {
   return (
-    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-xl">
       <div className="flex-shrink-0">
-        <img className="h-48 w-full object-cover" src={imgLink} alt={title} />
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={applicationLink}
+          className="block"
+        >
+          <img className="h-48 w-full object-cover" src={imgLink} alt={title} />
+        </a>
       </div>
       <div className="flex-1 bg-white p-6 flex flex-col justify-between">
         <div className="flex-1">

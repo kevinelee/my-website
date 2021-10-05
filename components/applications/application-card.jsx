@@ -5,7 +5,7 @@ const ApplicationCard = ({
   title,
   description,
   languages,
-  githubLink
+  githubLink,
 }) => {
   return (
     <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
@@ -15,15 +15,31 @@ const ApplicationCard = ({
       <div className="flex-1 bg-white p-6 flex flex-col justify-between">
         <div className="flex-1">
           <p className="text-sm leading-5 font-medium text-indigo-600">
-            <a href={applicationLink} className="hover:underline">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={applicationLink}
+              className="hover:underline"
+            >
               {type}
-            </a> | 
-            <a href={githubLink} className="hover:underline">
-               &nbsp;GitHub
+            </a>{" "}
+            |
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={githubLink}
+              className="hover:underline"
+            >
+              &nbsp;GitHub
             </a>
           </p>
-          
-          <a href={applicationLink} className="block">
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={applicationLink}
+            className="block"
+          >
             <h3 className="mt-2 text-xl leading-7 font-semibold text-gray-900 hover:text-indigo-600">
               {title}
             </h3>

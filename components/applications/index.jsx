@@ -3,7 +3,7 @@ import ApplicationCard from "./application-card";
 export default function Applications() {
   return (
     <>
-      <div className="relative  pt-10 px-4 sm:px-6 py-12 lg:px-8">
+      <div className="relative pt-10 px-4 py-12">
         <div className="absolute">
           <div className="bg-white h-1/3 sm:h-2/3"></div>
         </div>
@@ -19,13 +19,12 @@ export default function Applications() {
           <div className="mt-6 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
             <ApplicationCard
               imgLink="https://familykimchi.com/_next/image?url=%2Fimages%2Fkimchi-package-bg.jpg&w=1920&q=75"
-              applicationLink="https://art4bid.kevinelee.com"
-              type="Social Media"
-              title="ART4BID"
-              description="  An application to view and upload posts allowing the
-                      bidding on items"
-              languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | PostgreSQL | Express | Bootstrap 4"
-              githubLink="https://github.com/seongkevinlee/art4bid"
+              applicationLink="https://www.familykimchi.com"
+              type="Online Store"
+              title="Family Kimchi"
+              description="Enjoy homemade/homestyle, delicious kimchi!  Click here!"
+              languages="JavaScript(ES5/ES6) | React.js | NextJS | HTML5 | CSS3 | TailwindCSS | Stripe"
+              githubLink="https://github.com/kevinelee/family-kimchi"
             />
 
             <ApplicationCard
@@ -34,7 +33,7 @@ export default function Applications() {
               type="Services"
               title="Zion Landscaping"
               description="Looking for expert landscaping services?  Click here!"
-              languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | Tailwind | Gatsby"
+              languages="JavaScript(ES5/ES6) | React.js | Node.js | HTML5 | CSS3 | TailwindCSS | Gatsby"
               githubLink="https://github.com/kevinelee/zion-landscaping"
             />
 

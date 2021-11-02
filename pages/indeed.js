@@ -1,5 +1,6 @@
 /* eslint react/prop-types: 0 */
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 
 const CalendarInput = ({
   id,
@@ -43,7 +44,7 @@ const CopyLinkButton = ({ id, link }) => {
         }, 1500);
       }}
       id={id}
-      className={`p-4 rounded focus:outline-none font-semibold transition ease-in-out`}
+      className={`p-4 rounded focus:outline-none font-semibold transition transform ease-in-out`}
     >
       {isClicked ? <span className="text-green-500">Copied!</span> : link}
     </button>
@@ -101,6 +102,9 @@ function App() {
   return (
     <div className="App flex justify-center items-center h-screen">
       <div className="text-center">
+        <Link href="/">
+          <a>Home</a>
+        </Link>
         <div className="text-5xl font-bold p-4">Time Availability</div>
         <form>
           <CalendarInput

@@ -5,9 +5,10 @@ import Bio from "../components/bio";
 import Applications from "../components/applications";
 import ContactMe from "../components/contact-me";
 import Skills from "../components/skills";
-import Section from "../components/section"
-import { Link, animateScroll as scroll } from "react-scroll";
+import Section from "../components/section";
 import { useState } from "react";
+import Link from "next/link";
+import IndeedButton from "../components/indeed-button";
 
 export default function Home() {
   const [kevin, setKevin] = useState(null);
@@ -26,7 +27,11 @@ export default function Home() {
       </Head>
 
       <div className="fade-in">
-        <Section number="0" className="bg-gray-100 md:sticky md:top-0 z-50 md:shadow-sm">
+        <IndeedButton />
+        <Section
+          number="0"
+          className="bg-gray-100 md:sticky md:top-0 z-50 md:shadow-sm"
+        >
           <Header />
         </Section>
 

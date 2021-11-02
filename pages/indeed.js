@@ -29,16 +29,26 @@ const CalendarInput = ({
   );
 };
 
+
+
+
 function App() {
   const [firstDate, setFirstDate] = React.useState("");
   const [secondDate, setSecondDate] = React.useState("");
   const [thirdDate, setThirdDate] = React.useState("");
-  const [copyTextColor, setCopyTextColor] = React.useState("white");
+  const [hidden, setHidden] = React.useState(true);
+
+  // const [portfolioLink, setPortfolioLink] = React.useState("");
+  // const [githubLink, setGithubLink] = React.useState("");
+  // const [linkedinLink, setLinkedinLink] = React.useState("");
 
   useEffect(() => {
     setFirstDate(localStorage.getItem("firstDate"));
     setSecondDate(localStorage.getItem("secondDate"));
     setThirdDate(localStorage.getItem("thirdDate"));
+    // setPortfolioLink(localStorage.getItem("portfolioLink"));
+    // setGithubLink(localStorage.getItem("githubLink"));
+    // setLinkedinLink(localStorage.getItem("linkedinLink"));
   }, []);
 
   function handleChange(event) {
@@ -82,6 +92,14 @@ function App() {
 
     setTimeout(() => {
       setCopyTextColor("white");
+    }, 2000);
+  }
+
+  function hideCopyTextAlert() {
+    setHidden(false);
+
+    setTimeout(() => {
+      setHidden(true);
     }, 2000);
   }
 
@@ -140,16 +158,75 @@ function App() {
             navigator.clipboard.writeText(
               document.getElementById("final").textContent
             );
-            copyTextColorFn();
+            hideCopyTextAlert();
           }}
         >
           Click to Copy
         </button>
         <div
-          className={`text-${copyTextColor} font-semibold mt-2 transition ease-in-out`}
+          className={`${
+            hidden ? "hidden" : "block"
+          } font-semibold mt-2 transition ease-in-out`}
         >
           Copied!
         </div>
+
+        <div className="m-4">
+          <button
+            onClick={() => {
+              const link = document.getElementById("github-link");
+              navigator.clipboard.writeText(link.textContent);
+              link.textContent = "Copied!";
+              setTimeout(() => {
+                link.textContent = "https://www.github.com/kevinelee";
+              }, 2000);
+            }}
+            id="github-link"
+            className="p-4 rounded focus:outline-none font-semibold"
+          >
+            https://www.github.com/kevinelee
+          </button>
+          <button
+            onClick={() => {
+              navigator.clipboard.writeText(
+                document.getElementById("linkedin-link").textContent
+              );
+            }}
+            id="linkedin-link"
+            className="p-4"
+          >
+            https://www.linkedin.com/in/kevinelee/
+          </button>
+          <button
+            onClick={() => {
+              navigator.clipboard.writeText(
+                document.getElementById("portfolio-link").textContent
+              );
+            }}
+            id="portfolio-link"
+            className="p-4"
+          >
+            https://www.kevinelee.com/
+          </button>
+        </div>
+        {/* <form className="p-4">
+          <input
+            id="domain"
+            className="border border-1 rounded p-2"
+            type="text"
+          />
+          <button
+            className="ml-2 border border-black py-1 px-2 rounded-lg hover:bg-gray-200 ease-in-out transition focus:outline-none"
+            onClick={(e) => {
+              e.preventDefault();
+              navigator.clipboard.writeText(
+                document.getElementById("domain").value
+              );
+            }}
+          >
+            Click to Copy
+          </button>
+        </form> */}
       </div>
     </div>
   );

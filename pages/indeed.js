@@ -29,8 +29,24 @@ const CalendarInput = ({
   );
 };
 
-
-
+const CopyLinkButton = ({ id, link }) => {
+  return (
+    <button
+      onClick={() => {
+        const item = document.getElementById(id);
+        navigator.clipboard.writeText(item.textContent);
+        item.textContent = "Copied!";
+        setTimeout(() => {
+          item.textContent = link;
+        }, 2000);
+      }}
+      id={id}
+      className="p-4 rounded focus:outline-none font-semibold"
+    >
+      {link}
+    </button>
+  );
+};
 
 function App() {
   const [firstDate, setFirstDate] = React.useState("");
@@ -172,61 +188,19 @@ function App() {
         </div>
 
         <div className="m-4">
-          <button
-            onClick={() => {
-              const link = document.getElementById("github-link");
-              navigator.clipboard.writeText(link.textContent);
-              link.textContent = "Copied!";
-              setTimeout(() => {
-                link.textContent = "https://www.github.com/kevinelee";
-              }, 2000);
-            }}
+          <CopyLinkButton
             id="github-link"
-            className="p-4 rounded focus:outline-none font-semibold"
-          >
-            https://www.github.com/kevinelee
-          </button>
-          <button
-            onClick={() => {
-              navigator.clipboard.writeText(
-                document.getElementById("linkedin-link").textContent
-              );
-            }}
-            id="linkedin-link"
-            className="p-4"
-          >
-            https://www.linkedin.com/in/kevinelee/
-          </button>
-          <button
-            onClick={() => {
-              navigator.clipboard.writeText(
-                document.getElementById("portfolio-link").textContent
-              );
-            }}
-            id="portfolio-link"
-            className="p-4"
-          >
-            https://www.kevinelee.com/
-          </button>
-        </div>
-        {/* <form className="p-4">
-          <input
-            id="domain"
-            className="border border-1 rounded p-2"
-            type="text"
+            link="https://www.github.com/kevinelee"
           />
-          <button
-            className="ml-2 border border-black py-1 px-2 rounded-lg hover:bg-gray-200 ease-in-out transition focus:outline-none"
-            onClick={(e) => {
-              e.preventDefault();
-              navigator.clipboard.writeText(
-                document.getElementById("domain").value
-              );
-            }}
-          >
-            Click to Copy
-          </button>
-        </form> */}
+          <CopyLinkButton
+            id="linkedin-link"
+            link="https://www.linkedin.com/in/kevinelee/"
+          />
+          <CopyLinkButton
+            id="portfolio-link"
+            link="https://www.kevinelee.com/"
+          />
+        </div>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 /* eslint react/prop-types: 0 */
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 const CalendarInput = ({
   id,
@@ -30,20 +30,22 @@ const CalendarInput = ({
 };
 
 const CopyLinkButton = ({ id, link }) => {
+  const [isClicked, setIsClicked] = useState(false);
+
   return (
     <button
       onClick={() => {
         const item = document.getElementById(id);
         navigator.clipboard.writeText(item.textContent);
-        item.textContent = "Copied!";
+        setIsClicked(true);
         setTimeout(() => {
-          item.textContent = link;
-        }, 2000);
+          setIsClicked(false);
+        }, 1500);
       }}
       id={id}
-      className={`p-4 rounded focus:outline-none font-semibold`}
+      className={`p-4 rounded focus:outline-none font-semibold transition ease-in-out`}
     >
-      {link}
+      {isClicked ? <span className="text-green-500">Copied!</span> : link}
     </button>
   );
 };
@@ -52,19 +54,12 @@ function App() {
   const [firstDate, setFirstDate] = React.useState("");
   const [secondDate, setSecondDate] = React.useState("");
   const [thirdDate, setThirdDate] = React.useState("");
-  const [hidden, setHidden] = React.useState(true);
-
-  // const [portfolioLink, setPortfolioLink] = React.useState("");
-  // const [githubLink, setGithubLink] = React.useState("");
-  // const [linkedinLink, setLinkedinLink] = React.useState("");
+  const [copied, setCopied] = React.useState(false);
 
   useEffect(() => {
     setFirstDate(localStorage.getItem("firstDate"));
     setSecondDate(localStorage.getItem("secondDate"));
     setThirdDate(localStorage.getItem("thirdDate"));
-    // setPortfolioLink(localStorage.getItem("portfolioLink"));
-    // setGithubLink(localStorage.getItem("githubLink"));
-    // setLinkedinLink(localStorage.getItem("linkedinLink"));
   }, []);
 
   function handleChange(event) {
@@ -101,22 +96,6 @@ function App() {
       case "fourth":
         break;
     }
-  }
-
-  function copyTextColorFn() {
-    setCopyTextColor("black");
-
-    setTimeout(() => {
-      setCopyTextColor("white");
-    }, 2000);
-  }
-
-  function hideCopyTextAlert() {
-    setHidden(false);
-
-    setTimeout(() => {
-      setHidden(true);
-    }, 2000);
   }
 
   return (
@@ -168,24 +147,26 @@ function App() {
               : null}
           </span>
         </div>
+
         <button
-          className="border border-black py-2 px-4 rounded-lg hover:bg-gray-200 ease-in-out transition focus:outline-none"
+          id="copy-button"
+          className="border border-black py-2 px-4 rounded-lg hover:bg-gray-200 ease-in-out transition focus:outline-none font-semibold"
           onClick={() => {
             navigator.clipboard.writeText(
               document.getElementById("final").textContent
             );
-            hideCopyTextAlert();
+            setCopied(true);
+            setTimeout(() => {
+              setCopied(false);
+            }, 1500);
           }}
         >
-          Click to Copy
+          {copied ? (
+            <span className="text-green-500">Copied!</span>
+          ) : (
+            "Click to Copy"
+          )}
         </button>
-        <div
-          className={`${
-            hidden ? "hidden" : "block"
-          } font-semibold mt-2 transition ease-in-out`}
-        >
-          Copied!
-        </div>
 
         <div className="m-4">
           <CopyLinkButton

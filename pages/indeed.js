@@ -41,7 +41,7 @@ const CopyLinkButton = ({ id, link }) => {
         }, 2000);
       }}
       id={id}
-      className="p-4 rounded focus:outline-none font-semibold"
+      className={`p-4 rounded focus:outline-none font-semibold`}
     >
       {link}
     </button>
